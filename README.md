@@ -22,8 +22,9 @@ Theory : The following topics were covered during the Lecture :
        - Tuples consumes less memory 
        - Tuples have fewer built-in methods.
        - Iterations over tuple is faster
+   
 Algorithm :
-1) Display the Marks of th tudent using Tuple
+1) Display the Marks of the student using Tuple
    - Input the data i.e Tuple 
    - Read the data
    - Perform : max() - maximum of the list ,min() - minimum of the list , len() - Number of stuents , sum() - Sum of marks of the students , sum()/len()-average of marks of the students , sorted() - To sort the list in ascending 
