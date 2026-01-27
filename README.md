@@ -38,4 +38,5 @@ Algorithm :
    - Read the data
    - perform : attendance = ("p","a","p","p","a","p") ; attendance.count("p") ; attendance.count("a") ; if "a" in attendance (boolean value)
    - Print the result
+
 Conclusion : The study of Tuple in Python was successfully completed
