@@ -8,6 +8,7 @@ Theory : The following topics were covered during the Lecture :
 5) Practice Questions --- ( marks = (90,82,66,76,33) ; [max(),min(),len(),sum(),sum()/len(),sort()]
 6) Prctice Questions (Unpack the Tuple) --- ( result = ("Maths",82,"A") ; subject,marks,grade = result)
 7) Practice Question --- [attendance = ("p","a","p","p","a","p") ; attendance.count("p") ; attendance.count("a") ; if "a" in attendance)
+   
    Difference between List and Tuple in Python
    1) List
       - Lists are mutable(can be modified)
