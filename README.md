@@ -1,5 +1,7 @@
 Experiment No. - 3
+
 Aim : Study of Tuple in Python
+
 Theory : The following topics were covered during the Lecture :
 1) Introduction to Tuple
 2) To operate on the Commands in Tuple
