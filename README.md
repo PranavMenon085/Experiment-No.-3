@@ -155,6 +155,7 @@ ALGORITHM:
 PRACTICAL APPLICATIONS:
 
 Use tuples for: database records, coordinates, function returns, dictionary keys, configuration data, RGB values, dates
+
 Use lists for: dynamic data, frequent modifications, sorting in place
 
 CONCLUSION:
