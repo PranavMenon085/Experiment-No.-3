@@ -96,18 +96,27 @@ Tuples:
 ALGORITHM:
 
 1. Display Student Marks Statistics
+   
    Input: Tuple containing student marks
+   
    Process: Read marks tuple, apply max() for maximum, min() for minimum, len() for count, sum() for total, calculate average using sum()/len(), use sorted() for ascending order
+   
    Output: Display all calculated statistics
 
-2. Unpack Tuple Data
+3. Unpack Tuple Data
+   
    Input: Tuple containing subject, marks, and grade
+   
    Process: Read result tuple, unpack into individual variables, apply conditional check for distinction (marks >= 75)
+   
    Output: Display subject, marks, grade, and distinction status
 
-3. Employee Attendance Analysis
+5. Employee Attendance Analysis
+   
    Input: Tuple containing attendance data ('p' for present, 'a' for absent)
+
    Process: Read attendance tuple, use count("p") and count("a"), check if absent at least once
+   
    Output: Display attendance statistics and absence status
 
 OBSERVATIONS AND RESULTS:
