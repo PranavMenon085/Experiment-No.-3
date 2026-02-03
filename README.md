@@ -97,53 +97,58 @@ ALGORITHM:
 
 1. Display Student Marks Statistics
    
-   Input: Tuple containing student marks
+- Start – Begin the process of analyzing student marks.
+
+- Input marks tuple – Provide a tuple containing student marks.
+
+- Find maximum – Use max() to get the highest mark.
+
+- Find minimum – Use min() to get the lowest mark.
+
+- Count elements – Use len() to determine how many marks are present.
+
+- Calculate sum – Use sum() to add all marks together.
+
+- Compute average – Divide total marks by count to get the average.
+
+- Sort marks – Use sorted() to arrange marks in ascending order.
+
+- Display results – Show maximum, minimum, average, and sorted list.
+
+- Stop – End the algorithm.
+  
+2. Unpack Tuple Data
    
-   Process: Read marks tuple, apply max() for maximum, min() for minimum, len() for count, sum() for total, calculate average using sum()/len(), use sorted() for ascending order
+- Start – Begin the process of unpacking tuple data.
+
+- Input result tuple – Provide a tuple containing subject, marks, and grade.
+
+- Unpack tuple – Assign each element to separate variables.
+
+- Check condition – If marks ≥ 75, set distinction status to "Yes", else "No".
+
+- Display results – Show subject, marks, grade, and distinction status.
+
+- Stop – End the algorithm.
+
+3. Employee Attendance Analysis
    
-   Output: Display all calculated statistics
+- Start – Begin the process of analyzing attendance.
 
-3. Unpack Tuple Data
-   
-   Input: Tuple containing subject, marks, and grade
-   
-   Process: Read result tuple, unpack into individual variables, apply conditional check for distinction (marks >= 75)
-   
-   Output: Display subject, marks, grade, and distinction status
+- Input attendance tuple – Provide a tuple with 'p' for present and 'a' for absent.
 
-5. Employee Attendance Analysis
-   
-   Input: Tuple containing attendance data ('p' for present, 'a' for absent)
+- Count present – Use count("p") to find total present days.
 
-   Process: Read attendance tuple, use count("p") and count("a"), check if absent at least once
-   
-   Output: Display attendance statistics and absence status
+- Count absent – Use count("a") to find total absent days.
 
-OBSERVATIONS AND RESULTS:
+- Check condition – If absent days > 0, status = "Absent at least once".
 
-1. Tuple Operations
-   - Multiplication: (10,) * 5 = (10, 10, 10, 10, 10)
-   - Without comma: (10) * 5 = 50 (arithmetic operation)
+- Else condition – If no absences, status = "Always Present".
 
-2. Memory Analysis
-   - Tuples: Memory address changes after modification (new tuple created)
-   - Lists: Memory address stays same (in-place modification)
+- Display results – Show present days, absent days, and status.
 
-3. Student Marks Analysis
-   marks = (90, 82, 66, 76, 33)
-   - Maximum: 90, Minimum: 33
-   - Average: 69.4
-   - Sorted: [33, 66, 76, 82, 90]
-
-4. Tuple Unpacking
-   result = ("Maths", 82, "A")
-   - Subject: Maths, Marks: 82, Grade: A
-   - Distinction: Yes (marks >= 75)
-
-5. Attendance Tracking
-   attendance = ("p", "a", "p", "p", "a", "p")
-   - Present: 4 days, Absent: 2 days
-
+- Stop – End the algorithm.
+  
 PRACTICAL APPLICATIONS:
 
 Use tuples for: database records, coordinates, function returns, dictionary keys, configuration data, RGB values, dates
