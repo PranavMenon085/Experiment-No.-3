@@ -54,13 +54,20 @@ Topics Covered:
      
    - Conditional operations on unpacked data
 
-10. Practical Applications
+10. Practice Questions : 
     
    - Working with student marks data
      
    - Employee attendance tracking
      
    - Data validation using conditional statements
+     
+11.  PRACTICAL APPLICATIONS:
+
+Use tuples for: database records, coordinates, function returns, dictionary keys, configuration data, RGB values, dates
+
+Use lists for: dynamic data, frequent modifications, sorting in place
+
 
 KEY DIFFERENCES: LIST vs TUPLE
 
@@ -95,12 +102,6 @@ Tuples:
 - Syntax: Defined using parentheses: (item1, item2, item3)
   
 - Use case: When data should remain constant, suitable for fixed collections, ideal for data integrity
-  
-- PRACTICAL APPLICATIONS:
-
-Use tuples for: database records, coordinates, function returns, dictionary keys, configuration data, RGB values, dates
-
-Use lists for: dynamic data, frequent modifications, sorting in place
 
 ALGORITHMS:
 
