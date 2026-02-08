@@ -95,68 +95,121 @@ Tuples:
 - Syntax: Defined using parentheses: (item1, item2, item3)
   
 - Use case: When data should remain constant, suitable for fixed collections, ideal for data integrity
-
-ALGORITHM:
-
-1. Display Student Marks Statistics
-   
-- Start – Begin the process of analyzing student marks.
-
-- Input marks tuple – Provide a tuple containing student marks.
-
-- Find maximum – Use max() to get the highest mark.
-
-- Find minimum – Use min() to get the lowest mark.
-
-- Count elements – Use len() to determine how many marks are present.
-
-- Calculate sum – Use sum() to add all marks together.
-
-- Compute average – Divide total marks by count to get the average.
-
-- Sort marks – Use sorted() to arrange marks in ascending order.
-
-- Display results – Show maximum, minimum, average, and sorted list.
-
-- Stop – End the algorithm.
   
-2. Unpack Tuple Data
-   
-- Start – Begin the process of unpacking tuple data.
-
-- Input result tuple – Provide a tuple containing subject, marks, and grade.
-
-- Unpack tuple – Assign each element to separate variables.
-
-- Check condition – If marks ≥ 75, set distinction status to "Yes", else "No".
-
-- Display results – Show subject, marks, grade, and distinction status.
-
-- Stop – End the algorithm.
-
-3. Employee Attendance Analysis
-   
-- Start – Begin the process of analyzing attendance.
-
-- Input attendance tuple – Provide a tuple with 'p' for present and 'a' for absent.
-
-- Count present – Use count("p") to find total present days.
-
-- Count absent – Use count("a") to find total absent days.
-
-- Check condition – If absent days > 0, status = "Absent at least once".
-
-- Else condition – If no absences, status = "Always Present".
-
-- Display results – Show present days, absent days, and status.
-
-- Stop – End the algorithm.
-  
-PRACTICAL APPLICATIONS:
+- PRACTICAL APPLICATIONS:
 
 Use tuples for: database records, coordinates, function returns, dictionary keys, configuration data, RGB values, dates
 
 Use lists for: dynamic data, frequent modifications, sorting in place
+
+ALGORITHMS:
+
+1. Display Student Marks Statistics
+
+Step 1: Start - Begin the process
+
+Step 2: Initialize marks tuple
+   - Command: marks = (90, 82, 66, 76, 33)
+   - Built-in Python tuple structure (no import required)
+
+Step 3: Find and display maximum marks
+   - Command: print("The Maximum Marks are : ", max(marks))
+   - max() - Built-in function, returns largest item
+   - Output: 90
+
+Step 4: Find and display minimum marks
+   - Command: print("The Minimum Marks are : ", min(marks))
+   - min() - Built-in function, returns smallest item
+   - Output: 33
+
+Step 5: Count and display number of students
+   - Command: print("The Number of Students are : ", len(marks))
+   - len() - Built-in function, returns number of items
+   - Output: 5
+
+Step 6: Calculate and display sum of marks
+   - Command: print("The Sum of marks of students are : ", sum(marks))
+   - sum() - Built-in function, returns sum of all items
+   - Output: 347
+
+Step 7: Calculate and display average marks
+   - Command: print("The Average marks of students are : ", sum(marks)/len(marks))
+   - Division operator (/) - Built-in arithmetic operator
+   - Output: 69.4
+
+Step 8: Sort and display marks
+   - Command: print("Sorted array of marks are : ", sorted(marks))
+   - sorted() - Built-in function, returns new sorted list
+   - Output: [33, 66, 76, 82, 90]
+
+Step 9: Stop - End the algorithm
+
+
+2. Unpack Tuple Data
+
+Step 1: Start - Begin the process
+
+Step 2: Initialize result tuple
+   - Command: result = ("Maths", 82, "A")
+   - Built-in Python tuple structure (no import required)
+
+Step 3: Unpack tuple into variables
+   - Command: subject, marks, grade = result
+   - Tuple unpacking - Built-in Python feature
+   - Result: subject="Maths", marks=82, grade="A"
+
+Step 4: Display subject, marks, and grade
+   - Commands: 
+     print("Subject : ", subject)
+     print("Marks : ", marks)
+     print("Grade : ", grade)
+   - print() - Built-in function for console output
+
+Step 5: Check distinction condition
+   - Command: if marks >= 75:
+   - Conditional statement with >= operator - Built-in
+
+Step 6: Display distinction message (if condition true)
+   - Command: print("The Student has achieved Distinction in the Subject ")
+   - Executed only when marks ≥ 75
+
+Step 7: Stop - End the algorithm
+
+
+3. Employee Attendance Analysis
+
+Step 1: Start - Begin the process
+
+Step 2: Initialize attendance tuple
+   - Command: attendance = ("p", "a", "p", "p", "a", "p")
+   - Built-in Python tuple ('p'=present, 'a'=absent)
+
+Step 3: Count and display present days
+   - Command: print("The Number of days the Employee was Present : ", attendance.count("p"))
+   - count() - Built-in tuple method, counts occurrences
+   - Output: 4
+
+Step 4: Count and display absent days
+   - Command: print("The Number of days the Employee was Absent : ", attendance.count("a"))
+   - count() - Built-in tuple method
+   - Output: 2
+
+Step 5: Check absence condition
+   - Command: if attendance.count("a") >= 1:
+   - Conditional statement - Built-in
+
+Step 6: Display absence message
+   - Command: print("The Employee was absent atleast once ")
+
+Step 7: Verify using membership operator (nested condition)
+   - Command: if "a" in attendance:
+   - in operator - Built-in membership operator
+   - Provides alternative verification method
+
+Step 8: Display confirmation message
+   - Command: print("The Employee was absent atleast once ")
+
+Step 9: Stop - End the algorithm
 
 CONCLUSION:
 
