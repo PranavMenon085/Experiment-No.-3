@@ -36,14 +36,17 @@ Topics Covered:
    - Accessing elements using positive and negative indices
 
      Syntax :
-# Indexing 
+     
+Indexing 
 - tpl[1] = (positive indexing) # Returns "banana"
 - tpl[-2] = (negative indexing) # Returns "banana"
-# Concatenation
+  
+Concatenation
 tpl1 = (1, 2, 3)
 tpl2 = (4, 5, 6)
 result = tpl1 + tpl2
-# Multiplication (Repetition)
+
+Multiplication (Repetition)
 tpl = (10,) * 5
 
 3. Memory Location Analysis
@@ -226,4 +229,4 @@ Step 9: Stop - End the algorithm
 
 CONCLUSION:
 
-Tuples provide efficient, safe storage for fixed collections in Python. Their immutability ensures data integrity while offering performance benefits over lists. This experiment successfully demonstrated tuple operations, memory behavior, and real-world applications.
+The study of Tuple in Python was successfully completed
