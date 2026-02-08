@@ -116,32 +116,26 @@ Step 2: Initialize marks tuple
 Step 3: Find and display maximum marks
    - Command: print("The Maximum Marks are : ", max(marks))
    - max() - Built-in function, returns largest item
-   - Output: 90
 
 Step 4: Find and display minimum marks
    - Command: print("The Minimum Marks are : ", min(marks))
    - min() - Built-in function, returns smallest item
-   - Output: 33
 
 Step 5: Count and display number of students
    - Command: print("The Number of Students are : ", len(marks))
    - len() - Built-in function, returns number of items
-   - Output: 5
 
 Step 6: Calculate and display sum of marks
    - Command: print("The Sum of marks of students are : ", sum(marks))
    - sum() - Built-in function, returns sum of all items
-   - Output: 347
 
 Step 7: Calculate and display average marks
    - Command: print("The Average marks of students are : ", sum(marks)/len(marks))
    - Division operator (/) - Built-in arithmetic operator
-   - Output: 69.4
 
 Step 8: Sort and display marks
    - Command: print("Sorted array of marks are : ", sorted(marks))
    - sorted() - Built-in function, returns new sorted list
-   - Output: [33, 66, 76, 82, 90]
 
 Step 9: Stop - End the algorithm
 
@@ -157,7 +151,6 @@ Step 2: Initialize result tuple
 Step 3: Unpack tuple into variables
    - Command: subject, marks, grade = result
    - Tuple unpacking - Built-in Python feature
-   - Result: subject="Maths", marks=82, grade="A"
 
 Step 4: Display subject, marks, and grade
    - Commands: 
@@ -188,12 +181,10 @@ Step 2: Initialize attendance tuple
 Step 3: Count and display present days
    - Command: print("The Number of days the Employee was Present : ", attendance.count("p"))
    - count() - Built-in tuple method, counts occurrences
-   - Output: 4
 
 Step 4: Count and display absent days
    - Command: print("The Number of days the Employee was Absent : ", attendance.count("a"))
    - count() - Built-in tuple method
-   - Output: 2
 
 Step 5: Check absence condition
    - Command: if attendance.count("a") >= 1:
