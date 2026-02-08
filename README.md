@@ -24,7 +24,7 @@ Topics Covered:
 
 3. Tuple Operations
    
-   - Indexing and slicing
+   - Indexing 
      
    - Tuple multiplication and concatenation
      
