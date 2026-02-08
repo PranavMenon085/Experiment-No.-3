@@ -38,7 +38,7 @@ Topics Covered:
      Syntax :
 # Indexing 
 - tpl[1] = (positive indexing) # Returns "banana"
-- tpl[-2] = (negative indexing)
+- tpl[-2] = (negative indexing) # Returns "banana"
 # Concatenation
 tpl1 = (1, 2, 3)
 tpl2 = (4, 5, 6)
