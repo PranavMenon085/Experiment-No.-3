@@ -25,7 +25,7 @@ A tuple in Python is an ordered collection of elements that cannot be modified o
 
 Syntax:
 - my_tuple = (element1, element2, element3)
-- single_tuple = (element,)   # Note the comma
+- single_tuple = (element,)   
 - empty_tuple = ()
 
 2. Tuple Operations
@@ -209,17 +209,17 @@ Step 4: Count and display absent days
    - Command: print("The Number of days the Employee was Absent : ", attendance.count("a"))
    - count() - Built-in tuple method
 
-Step 5: Check absence condition
+Step 5: Check absence condition 
    - Command: if attendance.count("a") >= 1:
    - Conditional statement - Built-in
 
 Step 6: Display absence message
    - Command: print("The Employee was absent atleast once ")
 
-Step 7: Verify using membership operator (nested condition)
+Step 7: Verify using membership operator (nested condition) ----> Alternate Method
    - Command: if "a" in attendance:
    - in operator - Built-in membership operator
-   - Provides alternative verification method
+   - Command: print("The Employee was absent atleast once ")
 
 Step 8: Display confirmation message
    - Command: print("The Employee was absent atleast once ")
