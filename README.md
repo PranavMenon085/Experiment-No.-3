@@ -21,6 +21,11 @@ Topics Covered:
    - Tuple creation and basic operations
      
    - Difference between tuples and lists
+      
+     Syntax :
+   - my_tuple = (element1, element2, element3)
+   - single_tuple = (element)
+   - empty_tuple = ()
 
 2. Tuple Operations
    
@@ -30,6 +35,17 @@ Topics Covered:
      
    - Accessing elements using positive and negative indices
 
+     Syntax :
+# Indexing 
+- tpl[1] = (positive indexing) # Returns "banana"
+- tpl[-2] = (negative indexing)
+# Concatenation
+tpl1 = (1, 2, 3)
+tpl2 = (4, 5, 6)
+result = tpl1 + tpl2
+# Multiplication (Repetition)
+tpl = (10,) * 5
+
 3. Memory Location Analysis
    
    - Determining memory location of tuples before and after modification
@@ -37,6 +53,10 @@ Topics Covered:
    - Comparing memory behavior of tuples vs lists
      
    - Understanding immutability through memory addresses
+  
+     Syntax :
+   - tpl = ("apple", "banana", "orange")
+   - print(id(tpl))
 
 4. Tuple Methods and Functions
    
