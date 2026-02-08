@@ -22,7 +22,7 @@ Topics Covered:
      
    - Difference between tuples and lists
 
-3. Tuple Operations
+2. Tuple Operations
    
    - Indexing 
      
@@ -30,7 +30,7 @@ Topics Covered:
      
    - Accessing elements using positive and negative indices
 
-5. Memory Location Analysis
+3. Memory Location Analysis
    
    - Determining memory location of tuples before and after modification
      
@@ -38,7 +38,7 @@ Topics Covered:
      
    - Understanding immutability through memory addresses
 
-6. Tuple Methods and Functions
+4. Tuple Methods and Functions
    
    - Built-in functions: max(), min(), len(), sum(), sorted()
      
@@ -46,7 +46,7 @@ Topics Covered:
      
    - Sorting tuples while maintaining immutability
 
-8. Tuple Unpacking
+5. Tuple Unpacking
    
    - Assigning tuple elements to individual variables
      
@@ -54,7 +54,7 @@ Topics Covered:
      
    - Conditional operations on unpacked data
 
-10. Practice Questions : 
+6. Practice Questions : 
     
    - Working with student marks data
      
@@ -62,7 +62,7 @@ Topics Covered:
      
    - Data validation using conditional statements
      
-11.  PRACTICAL APPLICATIONS:
+7. PRACTICAL APPLICATIONS:
 
 Use tuples for: database records, coordinates, function returns, dictionary keys, configuration data, RGB values, dates
 
