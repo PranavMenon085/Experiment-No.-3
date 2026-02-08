@@ -132,6 +132,7 @@ Step 6: Calculate and display sum of marks
 Step 7: Calculate and display average marks
    - Command: print("The Average marks of students are : ", sum(marks)/len(marks))
    - Division operator (/) - Built-in arithmetic operator
+   - sum(marks)/len(marks) - Average marks
 
 Step 8: Sort and display marks
    - Command: print("Sorted array of marks are : ", sorted(marks))
